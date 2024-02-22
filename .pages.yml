@@ -1,8 +1,12 @@
 media:
-  input: "/wp-content/uploads/"
-  output: "/wp-content/uploads/"
+  input: "files/media"
+  output: "/files/media"
   path: "media"
-  extensions: ["jpg", "jpeg", "png", "gif"]
+  extensions: 
+    - "jpg"
+    - "jpeg"
+    - "png"
+    - "gif"
 content:
   - name: posts
     label: Posts
