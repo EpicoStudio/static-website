@@ -1,4 +1,4 @@
-media: /wp-content/uploads/
+media: "/wp-content/uploads/"
 content:
   - name: posts
     label: Posts
