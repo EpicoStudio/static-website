@@ -1,0 +1,16 @@
+media:
+  input: wp-content/uploads/2024/02
+  output: /wp-content/uploads/
+content:
+  - name: posts
+    label: Posts
+    path: post
+    type: collection  
+fields:
+  - { name: title, label: title, type: string }
+  - { name: layout, type: string, hidden: true, default: post }
+  - { name: date, label: Date, type: date }
+  - { name: comments, label: Comments, type: boolean, default: true }
+  - { name: description, label: Description, type: string, options: { maxlenght: 160 } }
+  - { name: image, label: Image, type: image }
+  - { name: body, label: Body, type: rich-text }
