@@ -1,7 +1,7 @@
 media:
-  input: "files/media"
-  output: "/files/media"
-  path: "media"
+  input: "wp-content/uploads/2024/02"
+  output: "wp-content/uploads"
+  path: "uploads"
   extensions: 
     - "jpg"
     - "jpeg"
